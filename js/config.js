@@ -171,7 +171,7 @@ const PLAYER_CONFIG = {
     autoplay: true,
     allowFullscreen: true,
     width: '100%',
-    height: '600',
+    height: '100%',
     timeout: 15000,  // 播放器加载超时时间
     filterAds: true,  // 是否启用广告过滤
     autoPlayNext: true,  // 默认启用自动连播功能
@@ -209,4 +209,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 新增隐藏内置黄色采集站API的变量，默认为true
-const HIDE_BUILTIN_ADULT_APIS = true;
+const HIDE_BUILTIN_ADULT_APIS = false;
